@@ -514,6 +514,26 @@ file = "kubejs/server_scripts/mods/phonos.js"
 hash = "10836165aa320bafee53924c1d14b83388231c107c38b3bdcdbf96e469cda136"
 
 [[files]]
+file = "kubejs/server_scripts/poly's fixes/farmersdelight.js"
+hash = "7b1cbd8ed4d6f49300357c128cb1bb4ca8f8002665bb23c56c036cc6f9c6a0bf"
+
+[[files]]
+file = "kubejs/server_scripts/poly's fixes/lapisshard.js"
+hash = "1d619d062d1f831fb208e1d64c14ba7d5f98bbd3becc973cfd37d65a1b2ed8ef"
+
+[[files]]
+file = "kubejs/server_scripts/poly's fixes/logging.js"
+hash = "91bd04de6b114fade6b711508b7af9c8e401eb486f94cb1e6d59124184658cce"
+
+[[files]]
+file = "kubejs/server_scripts/poly's fixes/thallasium.js"
+hash = "7fc60ad769e51ecd62a49c50e1e6d7d53497d931f8afb488af5eed0d438f2570"
+
+[[files]]
+file = "kubejs/server_scripts/poly's fixes/tinkersfixes.js"
+hash = "d56ca08d48dc43da87d350b93a4e2a01fe8711d6ae85205a64f5a029bb7cb96e"
+
+[[files]]
 file = "kubejs/server_scripts/recipe_removals.js"
 hash = "e1ee40f4943d7e869fff0c447f069641827f5cb631d2db73e8d8ef0bdd849e4d"
 
