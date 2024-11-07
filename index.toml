@@ -506,6 +506,10 @@ file = "kubejs/server_scripts/misc_recipes.js"
 hash = "4346ea71c33c9d69df7b5b75e942e14d9c0fda7d0a6c80e87c9fbc1cc9f204e2"
 
 [[files]]
+file = "kubejs/server_scripts/mods/computercraft.js"
+hash = "f6c2608bcb3e2d8d7cb63a6775b736448a5d3e019fd6a2ccfbb40a61a05e911b"
+
+[[files]]
 file = "kubejs/server_scripts/mods/farmersdelight.js"
 hash = "6bc7c1a8ad7492389b931411e0d16fe0af14d246106476245851d77e5fb5775a"
 
@@ -535,7 +539,7 @@ hash = "d56ca08d48dc43da87d350b93a4e2a01fe8711d6ae85205a64f5a029bb7cb96e"
 
 [[files]]
 file = "kubejs/server_scripts/recipe_removals.js"
-hash = "e1ee40f4943d7e869fff0c447f069641827f5cb631d2db73e8d8ef0bdd849e4d"
+hash = "f6e82022fc644b4be24851a8efcf3ed4da3b0aa26d6948d12a2ba1a2920fc327"
 
 [[files]]
 file = "kubejs/server_scripts/relics.js"
@@ -567,6 +571,11 @@ metafile = true
 [[files]]
 file = "mods/ae2.pw.toml"
 hash = "30f6a07aacfc0b9a5038a3e5261f231e81af3b6388cf473c87f978f4e2fb9347"
+metafile = true
+
+[[files]]
+file = "mods/ae2_create_evecompat.pw.toml"
+hash = "5485fd3d231be784683bb3ebb5aef07c35221f6ba6ba8e9a834f7ea20121e00f"
 metafile = true
 
 [[files]]
@@ -1490,6 +1499,11 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "dc8a98026a13e4e808fec7e4511e1cddc2edacfa52e93ec6173dfc60e02c331f"
+metafile = true
+
+[[files]]
+file = "mods/polymorphic-energistics.pw.toml"
+hash = "50c3264db098f9d4390d21508ab2f6b21a68a2b52eda373d0205569387cdb329"
 metafile = true
 
 [[files]]
