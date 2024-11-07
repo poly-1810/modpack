@@ -61,6 +61,32 @@ StartupEvents.registry('item', e => {
   .glow(false)
   .tooltip("An inert runic shard, formatted for utility spells.");
 
+  e.create('incomplete_gilded_transport_shard')
+  .formattedDisplayName(Component.string("Inert Transport Shard").lightPurple())
+  .texture('runic_shards:item/transport_incomplete')
+  .unstackable()
+  .rarity("common")
+  .glow(false)
+  .tooltip("An inert runic shard, formatted for transport spells.");
+  e.create('incomplete_gilded_combat_shard')
+  .formattedDisplayName(Component.string("Incomplete Gilded Combat Shard").red())
+  .texture('runic_shards:item/combat_incomplete')
+  .unstackable()
+  .rarity("common")
+  .glow(false)
+  e.create('incomplete_gilded_conjuring_shard')
+  .formattedDisplayName(Component.string("Incomplete Gilded Conjuring Shard").green())
+  .texture('runic_shards:item/conjuring_incomplete')
+  .unstackable()
+  .rarity("common")
+  .glow(false)
+  e.create('incomplete_gilded_utility_shard')
+  .formattedDisplayName(Component.string("Incomplete Gilded Utility Shard").blue())
+  .texture('runic_shards:item/utility_incomplete')
+  .unstackable()
+  .rarity("common")
+  .glow(false)
+
 /** * 
   * @param {Internal.LivingEntity} player
   * @param {Internal.MinecraftServer} server
@@ -189,7 +215,7 @@ StartupEvents.registry('item', e => {
     .maxDamage(16)
     .useAnimation('bow')
     .barColor(_itemstack => Color.BLUE)
-    .barWidth(_itemstack => 13 - Math.ceil(0,81 * _itemstack.damageValue))
+    .barWidth(_itemstack => 13 - Math.ceil(0.81 * _itemstack.damageValue))
     .tooltip("A runic shard, formatted for utility spells and stabilized with enchanted gold.")
     .useDuration(_itemstack => 72000)
     .use((_level, player, _hand) => {
@@ -261,7 +287,7 @@ StartupEvents.registry('item', e => {
     .maxDamage(16)
     .useAnimation('bow')
     .barColor(_itemstack => Color.RED)
-    .barWidth(_itemstack => 13 - Math.ceil(0,81 * _itemstack.damageValue))
+    .barWidth(_itemstack => 13 - Math.ceil(0.81 * _itemstack.damageValue))
     .tooltip("A runic shard, formatted for combat spells and stabilized with enchanted gold.")
     .useDuration(_itemstack => 72000)
     .use((_level, player, _hand) => {
@@ -333,7 +359,7 @@ StartupEvents.registry('item', e => {
     .maxDamage(16)
     .useAnimation('bow')
     .barColor(_itemstack => Color.GREEN)
-    .barWidth(_itemstack => 13 - Math.ceil(0,81 * _itemstack.damageValue))
+    .barWidth(_itemstack => 13 - Math.ceil(0.81 * _itemstack.damageValue))
     .tooltip("A runic shard, formatted for conjuring spells and stabilized with enchanted gold.")
     .useDuration(_itemstack => 72000)
     .use((_level, player, _hand) => {
