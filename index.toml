@@ -510,6 +510,14 @@ file = "kubejs/server_scripts/create/mixing.js"
 hash = "1810f440fa7a8d8751bea4d658b9909d8a38a6449c9252a49508de32c16dc582"
 
 [[files]]
+file = "kubejs/server_scripts/create/sequenced_assembly.js"
+hash = "6d0095bf3c005edd5a7d76d52fee56cef416cdac28815185a242218b5fdb8ab9"
+
+[[files]]
+file = "kubejs/server_scripts/createadditions/charging.js"
+hash = "18e4de6d3e98b9cc1488c38b66ae53feea74013fa87ed6353342d01355db2244"
+
+[[files]]
 file = "kubejs/server_scripts/local_chat.js"
 hash = "42dc2fce3894780bdd70d59a563d497807aea9ac16d507ff49d27031e06e46f1"
 
