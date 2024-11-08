@@ -137,6 +137,10 @@ file = "config/paxi/datapacks/better-endcity-better-end.zip"
 hash = "642db2d0eb68dff95744946a16fa45b476b956e6d9603300cc83677f307f86ff"
 
 [[files]]
+file = "config/paxi/datapacks/liquidfuel.zip"
+hash = "3fb051dc136efd4959c682199b29e87d8261b7b7ec410953ec7c4e564482bf9d"
+
+[[files]]
 file = "config/paxi/datapacks/sound_lengths.zip"
 hash = "d25f752f8256a5a8747b73c1f1c49d3998b94cdcba3f16b28b16bc5aa34da2a9"
 
@@ -482,6 +486,10 @@ file = "kubejs/data/minecraft/recipes/shulker_box.json"
 hash = "ddec276786d2a9082eb9376604cccb1fce7694d9d15ce4e6bacf95ccf1c650da"
 
 [[files]]
+file = "kubejs/server_scripts/betterend/infusion.js"
+hash = "f49ad03ce37c2f54765a6c5a5aedd4748443871964ac6e111c397982e1a74f91"
+
+[[files]]
 file = "kubejs/server_scripts/compostables.js"
 hash = "c27f4d3dd0572658c89f8b0b1b42e5d33354312e1e203f941ad86043da5f312a"
 
@@ -511,11 +519,11 @@ hash = "1810f440fa7a8d8751bea4d658b9909d8a38a6449c9252a49508de32c16dc582"
 
 [[files]]
 file = "kubejs/server_scripts/create/sequenced_assembly.js"
-hash = "6d0095bf3c005edd5a7d76d52fee56cef416cdac28815185a242218b5fdb8ab9"
+hash = "7ea109dacee39772f296e34586b2e5bc0891f6c13d594451b05ee617b670ee60"
 
 [[files]]
 file = "kubejs/server_scripts/createadditions/charging.js"
-hash = "18e4de6d3e98b9cc1488c38b66ae53feea74013fa87ed6353342d01355db2244"
+hash = "c6f5233610de98f80eb2b1b2b6cf5e73df472a0ba096c0f5d209c53ee1b7b3e5"
 
 [[files]]
 file = "kubejs/server_scripts/local_chat.js"
@@ -568,6 +576,10 @@ hash = "f6e82022fc644b4be24851a8efcf3ed4da3b0aa26d6948d12a2ba1a2920fc327"
 [[files]]
 file = "kubejs/server_scripts/relics.js"
 hash = "73e438e4042dfa6ab37aa0948ac8e62e9989e8325a961b5abebe2be1f4e8fe8a"
+
+[[files]]
+file = "kubejs/server_scripts/smithing.js"
+hash = "d54f1fb3afc2f8560ee5032fe5684deee96de51e2e194fcee6f00b28c35f6c86"
 
 [[files]]
 file = "kubejs/server_scripts/tags.js"
@@ -1410,6 +1422,11 @@ metafile = true
 [[files]]
 file = "mods/morechathistory.pw.toml"
 hash = "1447b2cbf7c1d96fd410f85fdd029c1de4a4f8709d09146e602b6054065e49c0"
+metafile = true
+
+[[files]]
+file = "mods/morejs.pw.toml"
+hash = "34d3a4818233d1503c47535f3aeb265f37ceae7c92cc4e5c2b253c8c3af037ac"
 metafile = true
 
 [[files]]
